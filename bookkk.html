@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blood Management System</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #d32f2f;
+      padding: 1rem;
+      color: white;
+      text-align: center;
+    }
+
+    header nav {
+      margin-top: 0.5rem;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #d32f2f;
+      margin-bottom: 1rem;
+    }
+
+    .card button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #b71c1c;
+    }
+
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blood Management System</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Donors</a>
+      <a href="#">Request</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to our Blood Management System</h2>
+      <p>Find blood donors or register as a donor to save lives!</p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Find Donors</h3>
+        <p>Search for donors by blood group and location.</p>
+        <button>Search Now</button>
+      </div>
+      <div class="card">
+        <h3>Become a Donor</h3>
+        <p>Join our donor community and save lives.</p>
+        <button>Register</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Blood Management System. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
